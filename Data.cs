@@ -10,6 +10,7 @@ namespace Lab8._1
     {
         public int firstTime;
         public int secondTime;
+
         public string position;
         public string color;
         public string word;
