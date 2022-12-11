@@ -17,7 +17,7 @@ namespace Lab8._1
             ReadFile();
             DrawScreen();
             SetTimer();
-            Console.ReadLine();
+            Console.ReadKey();
         }
 
         public static void SetTimer()
