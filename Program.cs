@@ -90,7 +90,7 @@ namespace Lab8._1
         public static void ReadFile()
         {
             char[] separators = { '-', '[', ',', ']' };
-            foreach (var line in File.ReadLines("C:\\Users\\Lutin\\Desktop\\Lab5\\Lab8.1\\subtitle.txt")) 
+            foreach (var line in File.ReadLines("subtitle.txt")) 
             {
                 string[] dataFromLine = line.Split(separators);
                 ConvertToClass(dataFromLine);
